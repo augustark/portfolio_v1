@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div id="root">
+    <nav>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="logo-name">
+        <img src="./assets/random-logo.png" alt=""/>
+        <h4>Neo.</h4>
+      </div>
+      <div class="sc-links">
+        <a href="https://www.linkedin.com/in/franconeo/" target="_blank">
+          <img src="assets/linkedin.svg" alt=""/>
+        </a>
+        <a href="https://github.com/augustark" target="_blank">
+          <img src="assets/github.svg" alt=""/>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-section">
+        <h1>Hi, I’m Neo</h1>
+        <p>I am a Frontend Developer</p>
+      </section>
+      <section id="about" class="about-section">
+        <h1>About me</h1>
+        <p>Proin purus purus eleifend mauris sed. Egestas tempor turpis faucibus a fusce. Libero sed ipsum quam ac. In id et massa leo mattis id donec. Congue facilisi amet, sit felis, mauris eu. Fames dignissim quam etiam felis facilisis enim. Aliquam tortor vitae elit vivamus tortor. Lectus suscipit aenean faucibus ultrices fames mauris. Justo elementum nulla egestas purus facilisi tortor sed tellus.</p>
+        <h3>Some tools I use:</h3>
+        <div class="skills">
+          <div class="skill-wrapper">
+            <img src="./assets/HTML-logo.png" alt=""/>
+            <span>HTML</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/CSS-logo.png" alt=""/>
+            <span>CSS</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/JS-logo.png" alt=""/>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/Sass-logo.png" alt=""/>
+            <span>Sass</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/React-logo.png" alt=""/>
+            <span>React</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/Photoshop-logo.png" alt=""/>
+            <span>Adobe Photoshop</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/Figma-logo.png" alt=""/>
+            <span>Figma</span>
+          </div>
+          <div class="skill-wrapper">
+            <img src="./assets/git-logo.png" alt=""/>
+            <span>git</span>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects-section">
+        <h1>Personal projects</h1>
+        <div class="project-wrapper">
+          <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt=""/>
+          <h3>project-001</h3>
+          <p>At scelerisque dignissim at eu id risus. Morbi quam ac in tincidunt viverra orci, amet. Vehicula felis, sed tellus non praesent. </p>
+          <div class="project-links">
+            <button type="button"><a href="https://swervegames.netlify.app/" target="_blank">Live Demo</a></button>
+            <button type="button"><a href="https://github.com/augustark/Responsive-Game-App" target="_blank">Source Code</a></button>
+          </div>
+        </div>
+        <div class="project-wrapper">
+          <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1198&q=80" alt=""/>
+          <h3>project-014</h3>
+          <p>Sit pulvinar sit purus dui tristique dictumst vel gravida massa. Lacus malesuada cras viverra cursus odio feugiat.</p>
+          <div class="project-links">
+            <button type="button"><a href="https://augustark.github.io/Weather-App/" target="_blank">Live Demo</a></button>
+            <button type="button"><a href="https://github.com/augustark/Weather-App" target="_blank">Source Code</a></button>
+          </div>
+        </div>
+        <div class="project-wrapper">
+          <img src="https://images.unsplash.com/photo-1558486012-817176f84c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=670&q=80" alt=""/>
+          <h3>project-027</h3>
+          <p>Vel tincidunt bibendum bibendum ac in etiam tellus nisi. </p>
+          <div class="project-links">
+            <button type="button"><a href="https://augustark.github.io/BookShelf-App/" target="_blank">Live Demo</a></button>
+            <button type="button"><a href="https://github.com/augustark/BookShelf-App" target="_blank">Source Code</a></button>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <h1 id="contact-header">Get in touch</h1>
+        <form action="https://getform.io/f/8395b9a9-85d7-4767-a007-ab94acd3b1c4" class="contact-card" id="form" method="POST" autocomplete="off">
+          <input type="text" name="name" placeholder="Name" required/>
+          <input type="email" name="email" placeholder="Email" required/>
+          <input type="text" name="subject" placeholder="Subject" required/>
+          <textarea name="message" maxlength="250" placeholder="Your message" required></textarea>
+          <button type="submit">Send</button>
+        </form> 
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
