@@ -134,7 +134,7 @@ section {
 }
 
 .about-section > p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.875rem;
   line-height: 150%;
 }
@@ -203,6 +203,18 @@ section {
 .project-wrapper > p {
   font-weight: 300;
   font-size: 0.875rem;
+  line-height: 150%;
+  letter-spacing: 0.125pt;
+}
+
+.project-wrapper > p > a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--layer_400);
+}
+
+.project-wrapper > p > a:hover {
+  color: var(--layer_300);
 }
 
 .project-wrapper > .project-links {
@@ -211,26 +223,25 @@ section {
   gap: 0.75em;
 }
 
-.project-links > button {
+.project-links > a {
   flex: 1;
   padding: 1em;
   border: none;
   border-radius: 3px;
   background-color: var(--layer_200);
   font-family: inherit;
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
 }
 
-.project-links > button:active,
-.project-links > button:hover,
-.project-links > button:focus {
+.project-links > a:active,
+.project-links > a:hover,
+.project-links > a:focus {
   background-color: var(--layer_300);
   color: var(--layer_100);
   font-weight: 500;
-}
-
-.project-links > button > a {
-  text-decoration: none;
-  color: inherit;
 }
 
 /* Contact Section */
@@ -345,7 +356,7 @@ section {
     grid-area: btns;
   }
 
-  .project-links > button {
+  .project-links > a {
     padding: 0.8em 2em;
   }
 }
@@ -364,7 +375,9 @@ section {
   }
   
   .about-section > p {
-    font-size: 1rem;
+    font-size: 1.125rem;
+    line-height: 175%;
+    letter-spacing: 0.125pt;
   }
 
   .skill-wrapper > img {
@@ -476,7 +489,6 @@ section {
 
   .project-wrapper > p {
     font-size: 0.85rem;
-    line-height: 125%;
     flex: 1;
   }
 
@@ -484,13 +496,13 @@ section {
     align-self: unset;
   }
 
-  .project-links > button {
+  .project-links > a {
     font-size: 0.7rem;
   }
   
-  .project-links > button:active,
-  .project-links > button:hover,
-  .project-links > button:focus {
+  .project-links > a:active,
+  .project-links > a:hover,
+  .project-links > a:focus {
     transition: all 250ms;
   }
 
@@ -522,7 +534,7 @@ section {
     max-height: 300px;
   }
 
-  .project-links > button {
+  .project-links > a {
     font-size: 0.8rem;
   }
 }
